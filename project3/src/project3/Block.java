@@ -92,7 +92,7 @@ public class Block {
 	}
 
 	public Block rotateRight() {
-		// 블록의 좌표를 오른쪽으로 돌린다.
+		// //블록의 좌표를 오른쪽으로 돌린다.
 		if (currentBlock == TetrisBlock.SquareShape)
 			return this;
 
