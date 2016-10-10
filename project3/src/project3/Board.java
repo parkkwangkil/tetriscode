@@ -29,7 +29,7 @@ public class Board extends JPanel implements ActionListener {
 	TetrisBlock[] board; // 블록의 위치와 어떤 것인지 확인
 
 	private int blocks[][]; // 테트리스의 블록의 좌표[][][]
-	private int blockTable[][][]; // 테트리스 테이블의 좌표 [][][]/
+	private int blockTable[][][]; // 테트리스 테이블의 좌표 [][][]//
 
 	int countLinesRemoved = 0; // 제거한 라인수
 	JLabel statusbar;
